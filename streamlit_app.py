@@ -13,7 +13,6 @@ import pandas as pd
 from scipy.stats import dirichlet
 
 import streamlit as st
-from streamlit_metrics import metric_row
 
 st.write("# How fair is your dreidel?")
 
