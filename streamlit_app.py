@@ -16,10 +16,10 @@ import streamlit as st
 
 st.write("# How fair is your dreidel?")
 
-intro = st.beta_expander("Introduction")
-body = st.beta_expander("Data Input & Results")
-methods = st.beta_expander('Methodology')
-misc = st.beta_expander('Misc')
+intro = st.expander("Introduction")
+body = st.expander("Data Input & Results")
+methods = st.expander('Methodology')
+misc = st.expander('Misc')
 
 intro.write('''Dreidels are notoriously biased. This app helps you visualize how fair your dreidel is using bayesian statistics. 
 
